@@ -4,10 +4,14 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
 body {
   background-color: transparent;
+  font-size: 12px;
+  line-height: 18px;
+  height: 100%;
 }
 
 ul {
@@ -16,6 +20,7 @@ ul {
 
 li {
   list-style-type: hiragana;
+  line-height: 18px;
 }
 
 a:hover {
@@ -35,13 +40,26 @@ a {
 
 .link-content {
   color: #fff;
-  margin-top: 128px;
+  padding-top: 128px;
+  /*height: 60%;*/
+  /*background-color: red;*/
+  /*overflow: scroll;*/
 }
 
 .overlay {
   background: url(../images/stiple-bg.png);
 }
 
-.issue-title {
+.issue-title, .issue-number, .name, .section-title {
   font-size: 1em;
+  line-height: 1em;
+}
+
+.issue-title {
+  color: #ffff00;
+}
+
+.masthead {
+  margin-bottom: 24px;
+  display: none;
 }
