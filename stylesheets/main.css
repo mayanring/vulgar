@@ -1,65 +1,48 @@
-html {
-  background: url(../images/3d-threat-space.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-}
-
 body {
-  background-color: transparent;
+  background-color: #f0f0f0;
+  color: #363636;
   font-size: 12px;
   line-height: 18px;
-  height: 100%;
 }
+
+
 
 ul {
-  margin: 0 0 10px 0;
-}
-
-li {
-  list-style-type: hiragana;
-  line-height: 18px;
+  list-style-type: none;
+  margin: 0;
 }
 
 a:hover {
-  color: #fff;
+  color: #777;
+  text-decoration: none;
 }
 
 a {
-  color: #fff;
+  color: #acacac;
+  font-weight: 700;
 }
 
-.title-bar {
-  display: none;
-  background-color: #000;
-}
-
-
-
-.link-content {
-  color: #fff;
-  padding-top: 128px;
-  /*height: 60%;*/
-  /*background-color: red;*/
-  /*overflow: scroll;*/
-}
-
-.overlay {
-  background: url(../images/stiple-bg.png);
-}
-
-.issue-title, .issue-number, .name, .section-title {
+.section-title {
   font-size: 1em;
   line-height: 1em;
 }
 
-.issue-title {
-  color: #ffff00;
+.bar {
+  background-color: #000;
+  height: 64px;
 }
 
-.masthead {
-  margin-bottom: 24px;
-  display: none;
+.name {
+  font-size: 30px;
+  line-height: 1em;
+  color: #d6d6d6;
+  text-shadow: 0 1px #fff;
+}
+
+
+.issue-title {
+  font-size: 12px;
+  line-height: 1em;
+  /*display: none;*/
+
 }
