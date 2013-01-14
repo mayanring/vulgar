@@ -3,12 +3,14 @@ html {
 }
 
 body {
-  /*background-color: #f0f0f0;*/
+  background-color: #fff;
   color: #363636;
 
   font-size: 20px;
   line-height: 1.2em;
   width: 100%;
+
+  font-family: "Courier New", 'courier', monospace;
 }
 
 
@@ -20,7 +22,7 @@ ul {
 
 
 a:hover {
-  color: #777;
+  color: red;
   text-decoration: none;
 }
 
@@ -32,6 +34,13 @@ a {
 a {
   text-decoration: none;
   color: #363636;
+  font-weight: normal;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Gentium Book Basic', serif;
 }
 
 .straight {
@@ -48,7 +57,11 @@ a {
 .content {
   width: 96%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 64px auto;
+}
+
+.content h2 {
+  margin: 1.5em 0;
 }
 
 .masthead {
@@ -61,6 +74,9 @@ a {
   line-height: 1em;
   text-align: center;
   margin: 0;
+  color: #363636;
+  font-weight: 800;
+  font-family: 'Gentium Book Basic', serif;
 }
 
 .menu {
@@ -82,6 +98,6 @@ a {
 
 .hero img {
   width: 100%;
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%);
+/*  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);*/
 }
