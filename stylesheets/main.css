@@ -1,16 +1,23 @@
-body {
-  background-color: #f0f0f0;
-  color: #363636;
-  font-size: 12px;
-  line-height: 18px;
+html {
+  border-top: solid 8px #333;
 }
 
+body {
+  /*background-color: #f0f0f0;*/
+  color: #363636;
+
+  font-size: 20px;
+  line-height: 1.2em;
+  width: 100%;
+}
 
 
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
+
 
 a:hover {
   color: #777;
@@ -22,31 +29,59 @@ a {
   font-weight: 700;
 }
 
-.section-title {
-  font-size: 1em;
+a {
+  text-decoration: none;
+  color: #363636;
+}
+
+.straight {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.straight_no_chaser {
+  width: 96%;  /* leave a 2% border on either side */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 96%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.masthead {
+  width: 100%;
+  padding: 128px 0;
+}
+
+.title {
+  font-size: 2em;
   line-height: 1em;
+  text-align: center;
+  margin: 0;
 }
 
-.bar {
-  background-color: #000;
-  height: 64px;
+.menu {
+  list-style-type: none;
+  text-align: center;
+  margin: 0.6em 0 0 0;
+  padding: 0;
 }
 
-.name {
-  font-size: 30px;
-  line-height: 1em;
-  color: #d6d6d6;
-  text-shadow: 0 1px #fff;
+.menu li {
+  display: inline;
+  padding: 0px 0.6em;
 }
 
-
-.issue-title {
-  font-size: 12px;
-  line-height: 1em;
-  /*display: none;*/
-
+.hero {
+/*  max-height: 256px;
+  overflow: hidden;*/
 }
 
-.giant-list {
-  -webkit-column-count: 2;
+.hero img {
+  width: 100%;
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
 }
