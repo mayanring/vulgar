@@ -46,3 +46,7 @@ a {
   /*display: none;*/
 
 }
+
+.giant-list {
+  -webkit-column-count: 2;
+}
