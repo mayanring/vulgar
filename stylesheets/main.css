@@ -4,13 +4,13 @@ html {
 
 body {
   background-color: #fff;
-  color: #363636;
+  color: #333;
 
-  font-size: 16px;
-  line-height: 1.2em;
+  font-size: 20px;
+  line-height: 1.5em;
   width: 100%;
 
-  font-family: "Courier New", 'courier', monospace;
+  font-family: 'Vollkorn', serif;
 }
 
 
@@ -27,20 +27,43 @@ a:hover {
 }
 
 a {
-  color: #acacac;
+  text-decoration: none;
+  color: #363636;
   font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-  color: #363636;
-  font-weight: normal;
+h2 {
+  /*font-style: italic;*/
+  text-transform: uppercase;
+  /*font-weight: 400;*/
+  /*font-family: 'Gentium Book Basic', serif;*/
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 0.8em;
+  line-height: 1em;
 }
 
-h2 {
-  font-style: italic;
-  font-weight: 400;
-  font-family: 'Gentium Book Basic', serif;
+.content a {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.content a em {
+  font-style: normal;
+}
+
+.content ul {
+  margin: 0 0 4em 0;
+}
+
+.content li {
+  margin: 0 0 2em 0;
+}
+
+
+img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  width: 100%;
 }
 
 .straight {
@@ -62,6 +85,11 @@ h2 {
 
 .content h2 {
   margin: 1.5em 0;
+  color: red;
+}
+
+.content img {
+  padding: 1em 0;
 }
 
 .masthead {
@@ -96,8 +124,9 @@ h2 {
   overflow: hidden;
 }
 
-.hero img {
-  width: 100%;
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%);
+.author {
+  font-size: 0.8em;
+  /*margin-left: 24px;*/
+  color: #666;
+  display: block;
 }
