@@ -45,10 +45,11 @@ h2 {
 .content a {
   font-size: 1.5em;
   line-height: 1em;
+  font-style: italic;
 }
 
 .content a em {
-  font-style: normal;
+  font-style: italic;
 }
 
 .content ul {
