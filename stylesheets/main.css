@@ -1,5 +1,6 @@
 html {
   border-top: solid 8px #333;
+  height: 100%;
 }
 
 body {
@@ -29,37 +30,15 @@ a:hover {
 a {
   text-decoration: none;
   color: #363636;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h2 {
-  /*font-style: italic;*/
   text-transform: uppercase;
-  /*font-weight: 400;*/
-  /*font-family: 'Gentium Book Basic', serif;*/
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 0.8em;
   line-height: 1em;
 }
-
-.content a {
-  font-size: 1.5em;
-  line-height: 1em;
-  font-style: italic;
-}
-
-.content a em {
-  font-style: italic;
-}
-
-.content ul {
-  margin: 0 0 4em 0;
-}
-
-.content li {
-  margin: 0 0 2em 0;
-}
-
 
 img {
   -webkit-filter: grayscale(90%);
@@ -72,16 +51,41 @@ img {
   margin: 0 auto;
 }
 
+.title-container {
+  position: absolute;
+  bottom: 1.5em;
+  width: 100%;
+}
+
 .straight_no_chaser {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.content {
+.container, .content {
   width: 90%;
   max-width: 600px;
   margin: 64px auto;
+}
+
+.content a {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-style: italic;
+  padding-right: 24px;
+}
+
+.content a em {
+  font-style: italic;
+}
+
+.content ul {
+  margin: 0 0 4em 0;
+}
+
+.content li {
+  margin: 0 0 1.5em 0;
 }
 
 .content h2 {
@@ -94,18 +98,28 @@ img {
 }
 
 .masthead {
-  width: 100%;
-  padding: 128px 0;
+  padding: 0;
+  position: relative;
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1em;
-  text-align: center;
+  /*text-align: center;*/
   margin: 0;
-  color: #363636;
-  font-weight: 800;
-  font-family: 'Gentium Book Basic', serif;
+  color: #fff;
+  font-weight: 100;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+
+  width: 90%;
+  max-width: 600px;
+  margin: 0px auto;
+
+  padding: 0.2em;
+  border-bottom: 4px solid #fff;
+  opacity: 0.4;
+  text-transform: lowercase;
+
 }
 
 .menu {
@@ -131,3 +145,44 @@ img {
   color: #666;
   display: block;
 }
+
+.about {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0;
+}
+
+footer {
+  margin-top: 256px;
+  padding: 64px 0px 16px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.extras {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, serif;
+  font-size: 0.6em;
+  line-height: 1em;
+}
+
+.quiet {
+  color: #777;
+}
+
+.shoutouts {
+
+}
+
+/*.intro {
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.conclusion {
+  width: 40%;
+  float: left;
+}*/
