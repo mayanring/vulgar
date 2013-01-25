@@ -41,8 +41,8 @@ h2 {
 }
 
 img {
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%);
+/*  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);*/
   width: 100%;
 }
 
