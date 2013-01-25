@@ -63,7 +63,7 @@ img {
   margin: 0 auto;
 }
 
-.container, .content {
+.content {
   width: 90%;
   max-width: 600px;
   margin: 64px auto;
@@ -97,6 +97,10 @@ img {
   padding: 1em 0;
 }
 
+.content p {
+  margin-bottom: 2em;
+}
+
 .masthead {
   padding: 0;
   position: relative;
@@ -105,7 +109,6 @@ img {
 .title {
   font-size: 3em;
   line-height: 1em;
-  /*text-align: center;*/
   margin: 0;
   color: #fff;
   font-weight: 100;
@@ -119,19 +122,6 @@ img {
   border-bottom: 4px solid #fff;
   opacity: 0.4;
   text-transform: lowercase;
-
-}
-
-.menu {
-  list-style-type: none;
-  text-align: center;
-  margin: 0.6em 0 0 0;
-  padding: 0;
-}
-
-.menu li {
-  display: inline;
-  padding: 0px 0.6em;
 }
 
 .hero {
@@ -171,18 +161,3 @@ footer {
 .quiet {
   color: #777;
 }
-
-.shoutouts {
-
-}
-
-/*.intro {
-  width: 40%;
-  float: left;
-  margin-right: 10%;
-}
-
-.conclusion {
-  width: 40%;
-  float: left;
-}*/
