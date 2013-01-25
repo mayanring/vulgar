@@ -1,0 +1,2 @@
+permalink: /posts/:title.html
+exclude: [README.md]
