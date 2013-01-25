@@ -33,7 +33,7 @@ a {
   font-weight: 400;
 }
 
-h2 {
+h2, .content h1 {
   text-transform: uppercase;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 0.8em;
@@ -92,7 +92,7 @@ img {
   margin: 0 0 1.5em 0;
 }
 
-.content h2 {
+.content h2, .content h1 {
   margin: 1.5em 0;
   color: red;
 }
@@ -103,6 +103,10 @@ img {
 
 .content p {
   margin-bottom: 2em;
+}
+
+.content p:first-child {
+  margin-bottom: 1em;
 }
 
 .masthead {
@@ -147,13 +151,6 @@ img {
 .hero {
   max-height: 512px;
   overflow: hidden;
-}
-
-.author {
-  font-size: 0.8em;
-  /*margin-left: 24px;*/
-  color: #666;
-  display: block;
 }
 
 .about {
