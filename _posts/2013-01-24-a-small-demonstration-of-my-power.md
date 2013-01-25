@@ -1,6 +1,7 @@
 ---
 layout: layout
 title: A Small Demonstration of my Power
+image: /images/public-enemies.jpg
 ---
 
 

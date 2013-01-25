@@ -23,7 +23,7 @@ ul {
 
 
 a:hover {
-  color: red;
+  color: rgb(194, 81, 81);
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ img {
 
 .content h2, .content h1 {
   margin: 1.5em 0;
-  color: red;
+  color: rgb(194, 81, 81);
 }
 
 .content img {
