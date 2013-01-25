@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: A Small Demonstration of my Power
 image: /images/public-enemies.jpg
 ---
